@@ -1,6 +1,7 @@
 import React from 'react'
 import FloatingParticle from './FloatingParticle'
 import { BookOpenIcon, CommandLineIcon, GlobeAltIcon } from '@heroicons/react/16/solid'
+import { BookOpenIcon } from "@heroicons/react/24/solid";
 import { IoBookOutline } from 'react-icons/io5'
 import { GrGithub, GrInstagram, GrTwitter } from 'react-icons/gr'
 import { FaDiscord } from 'react-icons/fa6'

@@ -21,7 +21,6 @@ const Hero = ({searchQuery}) => {
                 const mappedBooks = data.items?.map(item => ({
                     id: item.id,
                     title: item.volumeInfo.title || 'Untitled',
-                    id: item.id,
                     title: item.volumeInfo.title || 'Untitled',
                     authors: item.volumeInfo.authors?.join(', ') || 'Unknown Author',
                     categories: item.volumeInfo.categories?.join(', ') || 'General',
